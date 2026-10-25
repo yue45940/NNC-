@@ -1,0 +1,903 @@
+{
+  "products": [
+    {
+      "id": "prod-01",
+      "name": "イベント特製 彩りフェスBBQプレート",
+      "price": 850,
+      "description": "炭火で香ばしく焼き上げたビーフ＆ソーセージに、特製ガーリックライスと彩りグリル野菜を添えたイベント限定の特製プレートです。",
+      "image": "/src/assets/images/product_bento_deluxe_1792325095307.jpg",
+      "badge": "フェス名物",
+      "spellSpeed": 1,
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-10T09:00:00Z"
+    },
+    {
+      "id": "prod-02",
+      "name": "職人仕込み クラフトエール / 特製クラフトモクテル",
+      "price": 480,
+      "description": "フルーティーなホップが爽やかに香るイベント特製クラフトドリンク。会場の熱気の中でゴクゴク飲めるフェス限定仕込み。",
+      "image": "/src/assets/images/product_premium_coffee_1792325095328.jpg",
+      "badge": "限定ドリンク",
+      "spellSpeed": 2,
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-10T09:15:00Z"
+    },
+    {
+      "id": "prod-03",
+      "name": "焼きたてシナモンチュロス & 自家製キャラメル",
+      "price": 520,
+      "description": "外はサクサク、中はもっちり。イベントブースで揚げたての特製チュロスに濃厚な自家製ビターキャラメルソースをディップ。",
+      "image": "/src/assets/images/product_matcha_snack_1792325094891.jpg",
+      "badge": "人気スイーツ",
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-10T09:30:00Z"
+    },
+    {
+      "id": "prod-04",
+      "name": "和歌山完熟みかん フローズンクラッシュ 400ml",
+      "price": 380,
+      "description": "完熟温州みかんの果汁をそのままフローズンに。シャリシャリ食感と濃厚な柑橘の爽快感が楽しめるイベント限定スムージー。",
+      "image": "/src/assets/images/hero_cafe_store_1792325094927.jpg",
+      "badge": "冷涼フェス",
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-11T10:00:00Z"
+    },
+    {
+      "id": "prod-05",
+      "name": "直火焼き スパイシーチキン タコス 2P",
+      "price": 620,
+      "description": "自家製スパイスで香ばしく焼き上げたチキンにフレッシュサルサとアボカドをトッピング。片手で手軽に食べられるフェス定番タコス。",
+      "image": "/src/assets/images/product_bento_deluxe_1792325095307.jpg",
+      "badge": "フード人気No.1",
+      "spellSpeed": 1,
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-11T10:30:00Z"
+    },
+    {
+      "id": "prod-06",
+      "name": "宇治抹茶 特製かき氷 & 白玉パフェ",
+      "price": 420,
+      "description": "京都宇治の一番摘み抹茶蜜をたっぷりかけ、もっちり白玉と十勝産小豆を添えた贅沢なイベント限定かき氷パフェです。",
+      "image": "/src/assets/images/product_matcha_snack_1792325094891.jpg",
+      "badge": "限定スイーツ",
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-12T11:00:00Z"
+    },
+    {
+      "id": "prod-07",
+      "name": "イベント公式記念フェイスタオル & ステッカーセット",
+      "price": 450,
+      "description": "イベントロゴ入りの上質ジャガード織り今治産フェイスタオルと耐水仕様の限定公式ステッカーの記念セット。",
+      "image": "/src/assets/images/hero_cafe_store_1792325094927.jpg",
+      "badge": "公式グッズ",
+      "enableUsageMemo": false,
+      "createdAt": "2026-10-12T11:30:00Z"
+    },
+    {
+      "id": "prod-08",
+      "name": "スペシャル体験チケット / 抽選会エントリー券",
+      "price": 780,
+      "description": "会場内の特設ブースで使えるアクティビティ参加権および豪華景品が当たる大抽選会エントリーチケット。",
+      "image": "/src/assets/images/hero_cafe_store_1792325094927.jpg",
+      "badge": "体験チケット",
+      "spellSpeed": 3,
+      "enableUsageMemo": true,
+      "createdAt": "2026-10-13T14:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "loginId": "yue45",
+      "password": "YueUMP45940",
+      "name": "ゆゑ",
+      "email": "admin.yamada@example.com",
+      "role": "admin",
+      "balance": 1000000000000,
+      "department": "NNC鯖　イベント企画",
+      "avatarColor": "bg-indigo-600",
+      "status": "active",
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "usr-admin-02",
+      "loginId": "admin",
+      "password": "admin123",
+      "name": "管理者 (予備)",
+      "email": "admin@example.com",
+      "role": "admin",
+      "balance": 50000,
+      "department": "イベント運営実行委員会",
+      "avatarColor": "bg-indigo-600",
+      "status": "active",
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "usr-01",
+      "loginId": "sato",
+      "password": "pass123",
+      "name": "佐藤 健太",
+      "email": "kenta.sato@example.com",
+      "role": "user",
+      "balance": 6500,
+      "department": "参加者 / Aチーム",
+      "avatarColor": "bg-emerald-600",
+      "status": "active",
+      "createdAt": "2026-09-05T09:30:00Z"
+    },
+    {
+      "id": "usr-02",
+      "loginId": "suzuki",
+      "password": "pass123",
+      "name": "鈴木 美咲",
+      "email": "misaki.suzuki@example.com",
+      "role": "user",
+      "balance": 14200,
+      "department": "参加者 / Bチーム",
+      "avatarColor": "bg-blue-600",
+      "status": "active",
+      "createdAt": "2026-09-10T11:00:00Z"
+    },
+    {
+      "id": "usr-03",
+      "loginId": "takahashi",
+      "password": "pass123",
+      "name": "高橋 蓮",
+      "email": "ren.takahashi@example.com",
+      "role": "user",
+      "balance": 2400,
+      "department": "参加者 / Cチーム",
+      "avatarColor": "bg-amber-600",
+      "status": "active",
+      "createdAt": "2026-09-15T14:20:00Z"
+    },
+    {
+      "id": "usr-04",
+      "loginId": "ito",
+      "password": "pass123",
+      "name": "伊藤 結衣",
+      "email": "yui.ito@example.com",
+      "role": "user",
+      "balance": 8900,
+      "department": "参加者 / Dチーム",
+      "avatarColor": "bg-rose-600",
+      "status": "active",
+      "createdAt": "2026-09-20T10:15:00Z"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-01",
+      "name": "レッドフェニックス",
+      "leaderName": "佐藤 健太",
+      "leaderUserId": "usr-01",
+      "department": "営業推進ブロック",
+      "description": "一致団結してフェス優勝を目指します！情熱の赤で会場を最高に盛り上げます！",
+      "color": "rose",
+      "icon": "Flame",
+      "members": [
+        {
+          "id": "mem-01-01",
+          "name": "佐藤 健太",
+          "userId": "usr-01",
+          "isLeader": true,
+          "roleTitle": "リーダー・エース",
+          "characters": [
+            {
+              "id": "c-01-1",
+              "slotNumber": 1,
+              "name": "フレイムナイト (炎剣士)",
+              "note": "メイン前衛 / 突撃"
+            },
+            {
+              "id": "c-01-2",
+              "slotNumber": 2,
+              "name": "バーニングフェニックス",
+              "note": "サブアタッカー / 範囲炎"
+            },
+            {
+              "id": "c-01-3",
+              "slotNumber": 3,
+              "name": "緋色のガンナー",
+              "note": "中距離射撃"
+            },
+            {
+              "id": "c-01-4",
+              "slotNumber": 4,
+              "name": "深紅のガーディアン",
+              "note": "防壁サポート"
+            }
+          ]
+        },
+        {
+          "id": "mem-01-02",
+          "name": "高橋 雄大",
+          "isLeader": false,
+          "roleTitle": "メインストライカー",
+          "characters": [
+            {
+              "id": "c-01-5",
+              "slotNumber": 1,
+              "name": "ボルケーノグラップラー",
+              "note": "近接格闘メイン"
+            },
+            {
+              "id": "c-01-6",
+              "slotNumber": 2,
+              "name": "紅蓮のブレイカー",
+              "note": "重装アーマー破壊"
+            },
+            {
+              "id": "c-01-7",
+              "slotNumber": 3,
+              "name": "マグマソーサラー",
+              "note": "継続ダメージ"
+            },
+            {
+              "id": "c-01-8",
+              "slotNumber": 4,
+              "name": "ファイアスカウト",
+              "note": "高速遊撃"
+            }
+          ]
+        },
+        {
+          "id": "mem-01-03",
+          "name": "小林 陽子",
+          "isLeader": false,
+          "roleTitle": "サポート・ヒーラー",
+          "characters": [
+            {
+              "id": "c-01-9",
+              "slotNumber": 1,
+              "name": "サンクチュアリメイジ",
+              "note": "全体回復・バフ"
+            },
+            {
+              "id": "c-01-10",
+              "slotNumber": 2,
+              "name": "ルビーフェアリー",
+              "note": "状態異常解除"
+            },
+            {
+              "id": "c-01-11",
+              "slotNumber": 3,
+              "name": "ブレイズクレリック",
+              "note": "味方攻撃力UP"
+            },
+            {
+              "id": "c-01-12",
+              "slotNumber": 4,
+              "name": "クリムゾンシールド",
+              "note": "緊急バリア"
+            }
+          ]
+        },
+        {
+          "id": "mem-01-04",
+          "name": "渡辺 蓮",
+          "isLeader": false,
+          "roleTitle": "タクティカルスナイパー",
+          "characters": [
+            {
+              "id": "c-01-13",
+              "slotNumber": 1,
+              "name": "ホークアイスナイパー",
+              "note": "超遠距離精密射撃"
+            },
+            {
+              "id": "c-01-14",
+              "slotNumber": 2,
+              "name": "ブラストトラッパー",
+              "note": "地雷・エリア封鎖"
+            },
+            {
+              "id": "c-01-15",
+              "slotNumber": 3,
+              "name": "ステルスシャドウ",
+              "note": "奇襲・背後攻撃"
+            },
+            {
+              "id": "c-01-16",
+              "slotNumber": 4,
+              "name": "フレイムドローンオペレーター",
+              "note": "偵察・索敵"
+            }
+          ]
+        }
+      ],
+      "totalScore": 120,
+      "createdAt": "2026-10-15T09:00:00Z"
+    },
+    {
+      "id": "team-02",
+      "name": "ブルースカイ開発隊",
+      "leaderName": "鈴木 美咲",
+      "leaderUserId": "usr-02",
+      "department": "プロダクト技術本部",
+      "description": "冷静沈着な知略とチームワークで勝利を掴む！青空のように爽やかに駆け抜けます。",
+      "color": "indigo",
+      "icon": "Rocket",
+      "members": [
+        {
+          "id": "mem-02-01",
+          "name": "鈴木 美咲",
+          "userId": "usr-02",
+          "isLeader": true,
+          "roleTitle": "リーダー・司令塔",
+          "characters": [
+            {
+              "id": "c-02-1",
+              "slotNumber": 1,
+              "name": "サイバーコマンダー",
+              "note": "戦況分析・統制"
+            },
+            {
+              "id": "c-02-2",
+              "slotNumber": 2,
+              "name": "アクアヴァルキリー",
+              "note": "電磁ブレード"
+            },
+            {
+              "id": "c-02-3",
+              "slotNumber": 3,
+              "name": "コバルトメイジ",
+              "note": "敵足止め・凍結"
+            },
+            {
+              "id": "c-02-4",
+              "slotNumber": 4,
+              "name": "ハイパーバリアジェネレータ",
+              "note": "全方位防御"
+            }
+          ]
+        },
+        {
+          "id": "mem-02-02",
+          "name": "中村 拓実",
+          "isLeader": false,
+          "roleTitle": "フロントラインガード",
+          "characters": [
+            {
+              "id": "c-02-5",
+              "slotNumber": 1,
+              "name": "アイアンタイタン",
+              "note": "鉄壁の盾役"
+            },
+            {
+              "id": "c-02-6",
+              "slotNumber": 2,
+              "name": "プラズマランサー",
+              "note": "突進・陣形崩し"
+            },
+            {
+              "id": "c-02-7",
+              "slotNumber": 3,
+              "name": "フロストパラディン",
+              "note": "氷結カウンター"
+            },
+            {
+              "id": "c-02-8",
+              "slotNumber": 4,
+              "name": "リパルサーガーディアン",
+              "note": "敵弾跳ね返し"
+            }
+          ]
+        },
+        {
+          "id": "mem-02-03",
+          "name": "伊藤 彩花",
+          "isLeader": false,
+          "roleTitle": "レンジドアタッカー",
+          "characters": [
+            {
+              "id": "c-02-9",
+              "slotNumber": 1,
+              "name": "レーザーガンナーMk-II",
+              "note": "持続照射ビーム"
+            },
+            {
+              "id": "c-02-10",
+              "slotNumber": 2,
+              "name": "ブルーバードアーチャー",
+              "note": "連射ホーミング矢"
+            },
+            {
+              "id": "c-02-11",
+              "slotNumber": 3,
+              "name": "ストームキャスター",
+              "note": "天候嵐の召喚"
+            },
+            {
+              "id": "c-02-12",
+              "slotNumber": 4,
+              "name": "EMPディスラプター",
+              "note": "敵スキル封印"
+            }
+          ]
+        }
+      ],
+      "totalScore": 145,
+      "createdAt": "2026-10-15T09:30:00Z"
+    },
+    {
+      "id": "team-03",
+      "name": "グリーンフォレスト企画",
+      "leaderName": "田中 勇気",
+      "leaderUserId": "usr-03",
+      "department": "事業企画推進部",
+      "description": "自然体で笑顔がモットー！美味しいフードと限定ドリンクを味わい尽くしつつトップを狙います。",
+      "color": "emerald",
+      "icon": "Sparkles",
+      "members": [
+        {
+          "id": "mem-03-01",
+          "name": "田中 勇気",
+          "userId": "usr-03",
+          "isLeader": true,
+          "roleTitle": "チーム代表",
+          "characters": [
+            {
+              "id": "c-03-1",
+              "slotNumber": 1,
+              "name": "フォレストレンジャー",
+              "note": "地形適応・奇襲"
+            },
+            {
+              "id": "c-03-2",
+              "slotNumber": 2,
+              "name": "エメラルドドルイド",
+              "note": "自然の癒やし"
+            },
+            {
+              "id": "c-03-3",
+              "slotNumber": 3,
+              "name": "ゲリラハンター",
+              "note": "トラップ設置"
+            },
+            {
+              "id": "c-03-4",
+              "slotNumber": 4,
+              "name": "ウィンドスピリット",
+              "note": "機動力上昇バフ"
+            }
+          ]
+        },
+        {
+          "id": "mem-03-02",
+          "name": "加藤 結衣",
+          "isLeader": false,
+          "roleTitle": "ヒーラー・サポーター",
+          "characters": [
+            {
+              "id": "c-03-5",
+              "slotNumber": 1,
+              "name": "フローラハーバリスト",
+              "note": "持続HP回復"
+            },
+            {
+              "id": "c-03-6",
+              "slotNumber": 2,
+              "name": "リーフダンサー",
+              "note": "回避力UP"
+            },
+            {
+              "id": "c-03-7",
+              "slotNumber": 3,
+              "name": "ウッドゴーレム",
+              "note": "身代わり壁"
+            },
+            {
+              "id": "c-03-8",
+              "slotNumber": 4,
+              "name": "ポイズンアルケミスト",
+              "note": "敵弱体化"
+            }
+          ]
+        }
+      ],
+      "totalScore": 90,
+      "createdAt": "2026-10-15T10:00:00Z"
+    },
+    {
+      "id": "team-04",
+      "name": "ゴールドライオンズ",
+      "leaderName": "山本 健二",
+      "department": "カスタマーサクセス部",
+      "description": "王者たる堂々としたプレイと最高のホスピタリティで全種目完全制覇！",
+      "color": "amber",
+      "icon": "Trophy",
+      "members": [
+        {
+          "id": "mem-04-01",
+          "name": "山本 健二",
+          "isLeader": true,
+          "roleTitle": "総大将・キャプテン",
+          "characters": [
+            {
+              "id": "c-04-1",
+              "slotNumber": 1,
+              "name": "ゴールデンレオン (黄金獅子)",
+              "note": "覇王の咆哮・全体鼓舞"
+            },
+            {
+              "id": "c-04-2",
+              "slotNumber": 2,
+              "name": "サンシャインパラディン",
+              "note": "光輝の剛剣"
+            },
+            {
+              "id": "c-04-3",
+              "slotNumber": 3,
+              "name": "オーラムグラディエーター",
+              "note": "一騎打ち特化"
+            },
+            {
+              "id": "c-04-4",
+              "slotNumber": 4,
+              "name": "ソーラーエンペラー",
+              "note": "決戦奥義"
+            }
+          ]
+        },
+        {
+          "id": "mem-04-02",
+          "name": "斉藤 渚",
+          "isLeader": false,
+          "roleTitle": "サブリーダー",
+          "characters": [
+            {
+              "id": "c-04-5",
+              "slotNumber": 1,
+              "name": "ライトニングフェンサー",
+              "note": "電光石火の連撃"
+            },
+            {
+              "id": "c-04-6",
+              "slotNumber": 2,
+              "name": "ゴールドアサシン",
+              "note": "急所突き"
+            },
+            {
+              "id": "c-04-7",
+              "slotNumber": 3,
+              "name": "シャイニングクレリック",
+              "note": "無敵バリア付与"
+            },
+            {
+              "id": "c-04-8",
+              "slotNumber": 4,
+              "name": "ミラージュウィザード",
+              "note": "分身攪乱"
+            }
+          ]
+        }
+      ],
+      "totalScore": 180,
+      "createdAt": "2026-10-15T10:30:00Z"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "tourn-seed-01",
+      "name": "第1回 イベント公式トーナメント大会",
+      "description": "エントリー4チームによる勝ち抜きトーナメント対戦表。各チーム4キャラの編成を駆使した熱戦！",
+      "teamCount": 4,
+      "participatingTeamIds": [
+        "team-01",
+        "team-02",
+        "team-03",
+        "team-04"
+      ],
+      "status": "in_progress",
+      "createdAt": "2026-10-18T09:00:00Z",
+      "rounds": [
+        {
+          "round": 1,
+          "name": "準決勝 (Semifinals)",
+          "matches": [
+            {
+              "id": "tourn-seed-01-r1-m1",
+              "round": 1,
+              "matchNumber": 1,
+              "team1Id": "team-01",
+              "team1Name": "レッドフェニックス",
+              "team1Score": 3,
+              "team2Id": "team-02",
+              "team2Name": "ブルードラゴンズ",
+              "team2Score": 1,
+              "winnerId": "team-01",
+              "winnerName": "レッドフェニックス",
+              "status": "completed",
+              "nextMatchId": "tourn-seed-01-r2-m1",
+              "nextMatchSlot": 1,
+              "note": "1回戦 第1試合：炎の猛攻が炸裂しレッドフェニックスが勝利！"
+            },
+            {
+              "id": "tourn-seed-01-r1-m2",
+              "round": 1,
+              "matchNumber": 2,
+              "team1Id": "team-03",
+              "team1Name": "エメラルドホークス",
+              "team2Id": "team-04",
+              "team2Name": "ゴールドライオンズ",
+              "winnerId": null,
+              "winnerName": null,
+              "status": "scheduled",
+              "nextMatchId": "tourn-seed-01-r2-m1",
+              "nextMatchSlot": 2,
+              "note": "1回戦 第2試合：知略の緑 vs 覇王の黄金"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "name": "決勝戦 (Final)",
+          "matches": [
+            {
+              "id": "tourn-seed-01-r2-m1",
+              "round": 2,
+              "matchNumber": 1,
+              "team1Id": "team-01",
+              "team1Name": "レッドフェニックス",
+              "team2Id": null,
+              "team2Name": null,
+              "winnerId": null,
+              "winnerName": null,
+              "status": "scheduled",
+              "note": "決勝戦：栄冠を掴み取るチームは果たして！？"
+            }
+          ]
+        }
+      ],
+      "championTeamId": null,
+      "championTeamName": null
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-20261017-001",
+      "userId": "usr-01",
+      "userName": "佐藤 健太",
+      "userEmail": "kenta.sato@example.com",
+      "items": [
+        {
+          "productId": "prod-01",
+          "productName": "イベント特製 彩りフェスBBQプレート",
+          "price": 850,
+          "quantity": 1,
+          "subtotal": 850,
+          "image": "/src/assets/images/product_bento_deluxe_1792325095307.jpg"
+        },
+        {
+          "productId": "prod-02",
+          "productName": "職人仕込み クラフトエール / 特製クラフトモクテル",
+          "price": 480,
+          "quantity": 1,
+          "subtotal": 480,
+          "image": "/src/assets/images/product_premium_coffee_1792325095328.jpg"
+        }
+      ],
+      "totalAmount": 1330,
+      "balanceBefore": 7830,
+      "balanceAfter": 6500,
+      "status": "completed",
+      "createdAt": "2026-10-17T12:15:30Z",
+      "note": "イベントフードコート購入（自動決済）"
+    },
+    {
+      "id": "ORD-20261016-002",
+      "userId": "usr-02",
+      "userName": "鈴木 美咲",
+      "userEmail": "misaki.suzuki@example.com",
+      "items": [
+        {
+          "productId": "prod-03",
+          "productName": "焼きたてシナモンチュロス & 自家製キャラメル",
+          "price": 520,
+          "quantity": 2,
+          "subtotal": 1040,
+          "image": "/src/assets/images/product_matcha_snack_1792325094891.jpg"
+        },
+        {
+          "productId": "prod-04",
+          "productName": "和歌山完熟みかん フローズンクラッシュ 400ml",
+          "price": 380,
+          "quantity": 1,
+          "subtotal": 380,
+          "image": "/src/assets/images/hero_cafe_store_1792325094927.jpg"
+        }
+      ],
+      "totalAmount": 1420,
+      "balanceBefore": 15620,
+      "balanceAfter": 14200,
+      "status": "completed",
+      "createdAt": "2026-10-16T15:45:10Z",
+      "note": "フェススイーツ・フローズン購入"
+    }
+  ],
+  "balanceLogs": [
+    {
+      "id": "log-01",
+      "userId": "usr-01",
+      "userName": "佐藤 健太",
+      "type": "charge",
+      "amount": 10000,
+      "balanceAfter": 10000,
+      "reason": "初期所持金チャージ（管理者設定）",
+      "operator": "山田 一郎 (システム管理者)",
+      "createdAt": "2026-10-01T09:00:00Z"
+    },
+    {
+      "id": "log-02",
+      "userId": "usr-01",
+      "userName": "佐藤 健太",
+      "type": "purchase",
+      "amount": -1330,
+      "balanceAfter": 6500,
+      "reason": "注文決済 ORD-20261017-001",
+      "operator": "購入決済",
+      "createdAt": "2026-10-17T12:15:30Z"
+    },
+    {
+      "id": "log-03",
+      "userId": "usr-02",
+      "userName": "鈴木 美咲",
+      "type": "charge",
+      "amount": 15000,
+      "balanceAfter": 15000,
+      "reason": "現金受取によるチャージ（管理者設定）",
+      "operator": "山田 一郎 (システム管理者)",
+      "createdAt": "2026-10-05T14:00:00Z"
+    },
+    {
+      "id": "log-04",
+      "userId": "usr-02",
+      "userName": "鈴木 美咲",
+      "type": "purchase",
+      "amount": -1420,
+      "balanceAfter": 14200,
+      "reason": "注文決済 ORD-20261016-002",
+      "operator": "購入決済",
+      "createdAt": "2026-10-16T15:45:10Z"
+    }
+  ],
+  "inventories": [
+    {
+      "id": "inv-01",
+      "userId": "usr-01",
+      "productId": "prod-01",
+      "productName": "イベント特製 彩りフェスBBQプレート",
+      "price": 850,
+      "quantity": 2,
+      "image": "/src/assets/images/product_bento_deluxe_1792325095307.jpg",
+      "totalAcquired": 3,
+      "totalUsed": 1,
+      "updatedAt": "2026-10-17T12:15:30Z"
+    },
+    {
+      "id": "inv-02",
+      "userId": "usr-01",
+      "productId": "prod-02",
+      "productName": "職人仕込み クラフトエール / 特製クラフトモクテル",
+      "price": 480,
+      "quantity": 3,
+      "image": "/src/assets/images/product_premium_coffee_1792325095328.jpg",
+      "totalAcquired": 3,
+      "totalUsed": 0,
+      "updatedAt": "2026-10-17T12:15:30Z"
+    },
+    {
+      "id": "inv-03",
+      "userId": "usr-01",
+      "productId": "prod-07",
+      "productName": "イベント公式記念フェイスタオル & ステッカーセット",
+      "price": 450,
+      "quantity": 1,
+      "image": "/src/assets/images/hero_cafe_store_1792325094927.jpg",
+      "totalAcquired": 1,
+      "totalUsed": 0,
+      "updatedAt": "2026-10-15T10:10:05Z"
+    },
+    {
+      "id": "inv-04",
+      "userId": "usr-02",
+      "productId": "prod-03",
+      "productName": "焼きたてシナモンチュロス & 自家製キャラメル",
+      "price": 520,
+      "quantity": 2,
+      "image": "/src/assets/images/product_matcha_snack_1792325094891.jpg",
+      "totalAcquired": 2,
+      "totalUsed": 0,
+      "updatedAt": "2026-10-16T15:45:10Z"
+    }
+  ],
+  "usageLogs": [
+    {
+      "id": "use-01",
+      "userId": "usr-01",
+      "userName": "佐藤 健太",
+      "productId": "prod-01",
+      "productName": "イベント特製 彩りフェスBBQプレート",
+      "quantity": 1,
+      "image": "/src/assets/images/product_bento_deluxe_1792325095307.jpg",
+      "usedAt": "2026-10-17T13:00:00Z",
+      "note": "メインステージ前フードコートにて引換・喫食"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-seed-admin-01",
+      "userId": "usr-admin-01",
+      "userName": "山田 一郎 (運営本部管理者)",
+      "userLoginId": "admin",
+      "userDepartment": "イベント運営実行委員会",
+      "category": "announcement",
+      "subject": "【運営本部】トーナメント対戦表公開と開会式のご案内",
+      "content": "参加者の皆様へ：トーナメント表タブにて第1回公式トーナメントの対戦カードを公開いたしました！各チーム4キャラの編成をご確認の上、対戦開始時間までに特設アリーナへお集まりください。",
+      "createdAt": "2026-10-18T09:30:00Z",
+      "status": "read",
+      "senderType": "admin",
+      "recipientType": "all",
+      "recipientUserId": "all",
+      "recipientUserName": "全参加者（一斉配信）",
+      "userReadMessage": false
+    },
+    {
+      "id": "msg-seed-admin-02",
+      "userId": "usr-admin-01",
+      "userName": "山田 一郎 (運営本部管理者)",
+      "userLoginId": "admin",
+      "userDepartment": "イベント運営実行委員会",
+      "category": "balance",
+      "subject": "【個別連絡】事前チャージボーナスの付与完了",
+      "content": "佐藤様：事前エントリーボーナスとして所持金3,000円分を付与いたしました。アプリ画面にて残高が増加していることをご確認ください。本日のイベントをぜひお楽しみください！",
+      "createdAt": "2026-10-18T10:00:00Z",
+      "status": "read",
+      "senderType": "admin",
+      "recipientType": "single",
+      "recipientUserId": "usr-01",
+      "recipientUserName": "佐藤 健太",
+      "userReadMessage": false
+    },
+    {
+      "id": "msg-seed-01",
+      "userId": "usr-01",
+      "userName": "佐藤 健太",
+      "userLoginId": "sato",
+      "userDepartment": "参加者 / Aチーム",
+      "category": "balance",
+      "subject": "所持金チャージの確認について",
+      "content": "お疲れ様です。Aチームの佐藤です。本日午後のアクティビティ用に所持金チャージをお願いしたいのですが、受付ブースで現金チャージ可能でしょうか？",
+      "createdAt": "2026-10-18T10:30:00Z",
+      "status": "replied",
+      "senderType": "user",
+      "adminReply": {
+        "content": "佐藤様、ご連絡ありがとうございます！本部インフォメーションブースにて随時現金チャージを承っております。お気軽にお越しください。",
+        "repliedAt": "2026-10-18T10:45:00Z",
+        "adminName": "山田 一郎 (運営本部管理者)"
+      },
+      "userReadReply": true
+    },
+    {
+      "id": "msg-seed-02",
+      "userId": "usr-02",
+      "userName": "鈴木 美咲",
+      "userLoginId": "suzuki",
+      "userDepartment": "参加者 / Bチーム",
+      "category": "product",
+      "subject": "チュロスの引換受付時間について",
+      "content": "購入済みのチュロスチケットですが、夕方17時以降でも引換ブースは営業していますでしょうか？",
+      "createdAt": "2026-10-18T11:20:00Z",
+      "status": "unread",
+      "senderType": "user"
+    }
+  ],
+  "settings": {
+    "appTitle": "イベント用アプリ",
+    "heroBadge": "管理者：ゆゑ",
+    "heroTitle": "○○杯",
+    "heroDescription": "購入ルール\n・1試合ごとに１商品の購入・１商品の使用を行うこと\n・権利券無効に権利券無効を重ねることはできない\n・試合終了後に所持金を追加　勝ち：+3,000-　負け：+2,000-\n・MAP指定券・相手1名など、指定を行うものは、使用時にメモ機能に内容を記入すること\n　※MAP：採掘施設　　相手1名：○○さん\n・スペルスピードは、優先度を示す　数字が大きいものが優先度が高い\n・管理者からのメッセージの通知があるので、その際はメッセージにて返信を行うこと"
+  },
+  "lastModified": 1792921415426
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SmartStore - 商品購入・利用者残高管理システム",
+  "description": "イベント限定フード・ドリンク・グッズ・参加券のキャッシュレス購入、管理者による参加者管理・所持金配布、手元でのアイテム使用・引換を備えたイベント用アプリ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
